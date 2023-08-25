@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root{
+--primary-color:#0f1111;
+--text-color:#ffffff;
+--border-color:#ffffff;
+--light-color:#cccccc;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  border: border-box;
+}
+
+.navbar{
+  height: 60px;
+  background-color: var(--primary-color);
+  color:var(--text-color);
+  display: flex;
+  align-items: center;
+}
+
+
+
+.logo{
+  background-image: url(/assets/img/amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+
+.border{
+  border: 1.5px solid transparent;
+}
+
+.border:hover{
+  border:1.5px solid var(--border-color)
+}
+
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+.add-static{
+  color:var(--light-color);
+  font-size: .85rem;
+  margin-left: 15px;
+}
+
+.add-location{
+  font-size: 1rem;
+  margin-left: 3px;
+  
+}
+
+.nav-search{
+  display: flex;
+}
